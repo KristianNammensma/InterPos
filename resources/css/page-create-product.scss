@@ -1,0 +1,210 @@
+// * Miscellaneous
+// *******************************************************************************
+
+
+
+form
+{
+
+}
+
+body
+{
+    background-color: rgb(251, 248, 248);
+    margin: 1vw;
+}
+
+
+.form-layout
+{
+  width: 100%;
+
+  .card-body
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-body
+    {
+      width: 100%;
+    }
+
+  }
+
+  .success-msg
+  {
+    display: block;
+    width: 100%;
+    margin: 2vw;
+    text-align: center;
+    color: #fff;
+    background-color: #7367f0;
+    border-color: #7367f0;
+    padding: 1em 3em;
+    border-radius: .25em;
+    box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  }
+
+
+
+
+  .product-info
+  {
+      padding:2vw;
+      margin-bottom: 1vw;
+      margin-top: 1vw;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+      width: 60%;
+
+
+      input
+      {
+        width: 100%;
+      }
+
+      .form-name
+      {
+        margin-top: 1vh;
+      }
+
+      .form-desc
+      {
+        margin-top: 4vh;
+
+        .desc-items
+        {
+          #toolbox
+          {
+            width: 100%;
+            border-radius: 10px 1px 0 0 ;
+            height: 4vh;
+          }
+          #description
+          {
+            border-radius:  0 0 10px 1px;
+            height: 15vh;
+          }
+        }
+      }
+    }
+
+  .product-price
+  {
+      width: 35%;
+      padding:2vw;
+      margin-bottom: 1vw;
+      margin-top: 1vw;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+
+
+      input
+      {
+        width: 100%;
+      }
+
+      .form-sale
+      {
+        margin-top: 3vh;
+
+      }
+
+      .form-tax
+      {
+        margin-top: 1.5vh;
+          input
+          {
+            width: 1vw;
+          }
+
+          .tax-label
+          {
+            margin-left: .5vw;
+          }
+      }
+  }
+
+  .submit-f
+  {
+    margin-bottom: 5vh;
+    padding:1vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+    width: 100%;
+
+    button
+    {
+      display: block;
+      width: 40%;
+      height: 6vh;
+      padding: 0.422rem 0.875rem;
+      font-size: 0.9375rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #6f6b7d;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      color: #fff;
+      background-color: #7367f0;
+      border-color: #7367f0;
+      background-clip: padding-box;
+      border: var(--bs-border-width) solid #dbdade;
+      border-radius: var(--bs-border-radius);
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    h4
+    {
+      margin-top: .5vh;
+      margin-bottom: 0vh;
+      margin-left: .5vw;
+    }
+
+  }
+
+  .card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    color: var(--bs-card-cap-color);
+    background-color: var(--bs-card-cap-bg);
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+
+
+  #edit-input
+  {
+    margin-bottom: 0;
+    border: none;
+    background-color: #f1ebeb;
+  }
+
+
+  .btn-e
+  {
+    width: .5vw;
+  }
+
+
+
+}
+
+
+
+// media query for width
+@media (max-width: 1499.98px) {
+  // All Misc Pages
+  .misc-bg-wrapper img {
+    height: 250px;
+  }
+  // Under Maintenance
+  .misc-under-maintenance-bg-wrapper img {
+    height: 270px !important;
+  }
+}

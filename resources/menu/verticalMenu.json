@@ -1,0 +1,88 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-soup",
+      "name": "Gerechten",
+      "slug": "Product",
+      "submenu": [
+        {
+          "url": "Product-all",
+          "name": "Alle Gerechten",
+          "slug": "Product-all"
+        },
+        {
+          "url": "Product-create",
+          "name": "Nieuw Gerecht",
+          "slug": "Product-create"
+        },
+        {
+          "url": "Product-category",
+          "name": "Categorie Lijst",
+          "slug": "Product-category"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-fridge",
+      "name": "Eigenschappen",
+      "slug": "Attribute",
+      "submenu": [
+        {
+          "url": "Attribute-all",
+          "name": "Alle Eigenschappen",
+          "slug": "Attribute-all"
+        },
+        {
+          "url": "Attribute-create",
+          "name": "Nieuwe Eigenschappen",
+          "slug": "Attribute-create"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-basket",
+      "name": "Bestellingen",
+
+      "slug": "Order",
+      "submenu": [
+        {
+          "url": "Order-all",
+          "name": "Alle Bestellingen",
+          "slug": "Order-all"
+        },
+        {
+          "url": "Order-create",
+          "name": "Nieuwe Bestellingen",
+          "slug": "Order-create"
+        }
+      ]
+    },
+    {
+      "url": "pages/misc-error",
+      "name": "Error",
+      "icon": "menu-icon tf-icons ti ti-alert-triangle",
+      "slug": "pages-misc-error",
+      "target": "_blank"
+    },
+    {
+      "url": "auth/login-basic",
+      "name": "Login",
+      "icon": "menu-icon tf-icons ti ti-login",
+      "slug": "auth-login-basic",
+      "target": "_blank"
+    },
+    {
+      "url": "auth/register-basic",
+      "name": "Register",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "auth-register-basic",
+      "target": "_blank"
+    }
+  ]
+}

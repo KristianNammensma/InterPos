@@ -1,0 +1,101 @@
+// * Miscellaneous
+// *******************************************************************************
+
+body
+{
+    background-color: rgb(251, 248, 248);
+    margin: 1vw;
+}
+
+
+form
+{
+
+}
+
+.form-card
+{
+  background-color: white;
+  padding: 2vw;
+  border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+
+  .form-control , button{
+    display: block;
+    width: 100%;
+    padding: 0.422rem 0.875rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6f6b7d;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #dbdade;
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 2vh;
+
+  }
+
+  #edit-input
+  {
+    margin-bottom: 0;
+    border: none;
+    background-color: #f1ebeb;
+  }
+
+  button
+  {
+    color: #fff;
+    background-color: #7367f0;
+    border-color: #7367f0;
+  }
+
+
+
+
+  .search-input
+  {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 2.5em;
+    border-radius: .25em;
+    overflow: hidden;
+    margin-right: .5em;
+  }
+
+  .table button
+  {
+    margin-bottom: 0;
+    width: fit-content;
+    margin: .2vw;
+  }
+
+  .table select
+  {
+    margin-bottom: 0;
+  }
+
+
+
+
+}
+
+
+
+
+// media query for width
+@media (max-width: 1499.98px) {
+  // All Misc Pages
+  .misc-bg-wrapper img {
+    height: 250px;
+  }
+  // Under Maintenance
+  .misc-under-maintenance-bg-wrapper img {
+    height: 270px !important;
+  }
+}
