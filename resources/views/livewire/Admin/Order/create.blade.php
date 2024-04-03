@@ -18,7 +18,7 @@
                         <button type="button" class="nav-link active" wire:click="sort(0)" role="tab"
                             data-bs-toggle="tab" data-bs-target="#navs-pills-tab-all" aria-controls="navs-pills-tab-all"
                             aria-selected="true">
-                            All
+                            Alle
                         </button>
                     </li>
 
